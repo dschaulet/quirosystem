@@ -1,0 +1,23 @@
+.qs-toolbar {
+    width: 100%;
+    height: 50px;
+    background-color: #305384;
+}
+
+.qs-toolbar .qs-app-name {
+    float: left;
+    margin: 10px;
+    color: rgba(255,255,255,0.8);
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+.qs-toolbar .qs-lnk-github {
+    float: right;
+    margin: 10px;
+}
+
+.qs-toolbar .qs-lnk-github i {
+    font-size: 30px;
+    color: white;
+}

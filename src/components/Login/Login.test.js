@@ -1,5 +1,5 @@
 import React from 'react';
-import shallow from 'enzyme';
+import {shallow} from 'enzyme';
 import Login from '../Login';
 
 describe("Login test", ()=> {
@@ -7,7 +7,6 @@ describe("Login test", ()=> {
         const wrapper = shallow(<Login />);
         expect(wrapper.find('form')).toHaveLength(1);
     });
-/*
     
     it('Should have a input text to username', () => {
         const wrapper = shallow(<Login />);
@@ -24,5 +23,4 @@ describe("Login test", ()=> {
         expect(wrapper.find('button')).toHaveLength(1);
         wrapper.find('button').simulate('click');
     });
-*/
 });

@@ -15,6 +15,6 @@ describe("Toolbar test", ()=> {
 
     it("should have a link to project repository", () => {
         const wrapper = shallow(<Toolbar />);
-        expect(wrapper.find('.qs-btn-github')).toHaveLength(1);
+        expect(wrapper.find('.qs-lnk-github')).toHaveLength(1);
     });
 });
